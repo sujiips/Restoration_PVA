@@ -1,5 +1,6 @@
-# This model can be applied in studies of tree species with different characteristics, from tropical and temperate forests, to assess population persistence in restoration sites. 
-# 
+# Simulation model
+This model can be applied in studies of tree species with different characteristics, from tropical and temperate forests, to assess population persistence in restoration sites. 
+ 
 ## author
 Patricia Sanae Sujii
 
