@@ -5,9 +5,12 @@ begin  <-  function( parms ){
 #   function for age dependent survival probability
 #------------------------------------------------------#
     fsRate <- function(age){
-    ifelse(age==1, 0.07, 
-           ifelse(age < 6, 0.2*age-0.3, 
-                  ifelse(age >= maxAge[m], 0, 1-((0.7630607/7.8215614)*((age/7.8215614)^(0.7630607-1))*exp(-(age/7.8215614)^0.7630607)))))
+    ifelse(age >= 1 & age <= 2, 0.29, 
+           ifelse(age < 6, 0.6,
+                ifelse(age < 10, 0.7, 
+                    ifelse(age < 20, 0.75,
+                        ifelse(age < 40, 0.85,
+                  ifelse(age >= maxAge[m], 0, 0.95))))))
   }
   
   
