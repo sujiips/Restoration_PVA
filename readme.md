@@ -18,5 +18,4 @@ number of individuals and the size of the restoration area. See example file (da
 The outpu will be:
 * files with individual location (x, y), genotypes, age, plant parents and survival probability, in two formats (this program's format and FSTAT's format).
 * summary genetic statistics
-
- 
+* example output files listed here are named as: number of mother trees_number of pollen donors_area size. Example: 1m_1f_5ha.zip are the result files of simulations of a restoraion area created with seeds from one mother tree, one pollen donor in an area of 5ha.
